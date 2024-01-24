@@ -7,3 +7,6 @@ accountCity = "Jaipur";
 
 console.table([accountId,accountEmail,accountPassword,accountCity]);
 console.log(typeof accountEmail)
+const a=Symbol('123')
+console.log(a);
+const v=1111111111111111111n
