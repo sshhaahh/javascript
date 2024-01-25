@@ -1,2 +1,3 @@
-const num = 1000000;
-console.log(num.toLocaleString('en-IN'))
+for(let i=0;i<204;i++){
+  console.log(Math.floor(Math.random()*6)+1)
+}
