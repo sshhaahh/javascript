@@ -1,10 +1,10 @@
-const obj={
-  name : "Shah",
-  age : 18,
-  email : "shah@gmail.com",
-  isLoggedIn : "false",
-  lastLoggedDays : "Monday"
-}
+const obje = new Object();
+const obj={};
 
-console.log(obj.email)
-console.log(obj["email"])
+obj.name = "shan"
+obj.age = 10
+obj.adress = "Muzaffarnagar"
+
+console.log(obj);
+
+console.log(obj["name"]);
