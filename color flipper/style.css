@@ -1,14 +1,44 @@
-.container{
-    background-color: red;
-    height: 600px;
-    width: 600px;
+body{
+    background-color: white;
+    margin: 0;
+    color: white;
+}
+
+nav{
+    height: 60px;
+    width: 100%;
+    background-color: rgb(155, 187, 216);
     display: flex;
-    
+    font-size: 2rem;
     justify-content: center;
     align-items: center;
+}
+
+.container{
+    position: absolute;
+    margin-top: 13rem;
+    margin-left: 15rem;
+   
+    text-align: center;
+    
     
 }
-div button{
-    height: 2rem;
-    width: 6rem;
+div h2{
+    
+    height: 50px;
+    width: 300px;
+    font-size: 1rem;
+    padding-top: 1.14em;
+    border-radius: 30px;
+    background-color: black;
+}
+div span{
+    color: aqua;
+}
+.btn{
+    background-color: black;
+    color: white;
+    height: 30px;
+    width:80px;
+    border-radius: 30px;
 }
